@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SafewayV1]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Safeway Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testcases.TC_Login_001">
+        <methods>
+          <include name="setUp"/>
+          <include name="loginTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.TC_Login_001 -->
+    </classes>
+  </test> <!-- Safeway Test(failed) -->
+</suite> <!-- Failed suite [SafewayV1] -->
